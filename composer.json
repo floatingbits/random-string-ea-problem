@@ -1,0 +1,29 @@
+{
+    "name": "floatingbits/random-string-ea-problem",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "FloatingBits\\RandomStringEaProblem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Soeren Parton",
+            "email": "mail@floatingbitsmedia.de"
+        }
+    ],
+    "require": {
+        "floatingbits/evolutionary-algorithm": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/home/soeren/Projects/evolutionary-algorithm"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    }
+}
