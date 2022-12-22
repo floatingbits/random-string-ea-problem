@@ -18,9 +18,11 @@
         "floatingbits/evolutionary-algorithm": "dev-main"
     },
     "repositories": [
+        
         {
-            "type": "path",
-            "url": "/home/soeren/Projects/evolutionary-algorithm"
+            "type": "vcs",
+            "url": "https://github.com/floatingbits/evolutionary-algorithm",
+            "no-api": true
         }
     ],
     "require-dev": {
